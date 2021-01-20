@@ -1,0 +1,59 @@
+html {
+  font-size: 65.2%;
+}
+.header {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin-top: 5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.header-logo{
+    margin: 0;
+}
+.header-title {
+  text-align: center;
+}
+.header-title__text {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.4rem;
+}
+.main-search {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 0.3rem;
+}
+.search-input {
+  border: none;
+  outline: none;
+  font-size: 1.4rem;
+  padding: 1.2rem 0.8rem;
+  width: 100%;
+}
+.search-language {
+  border: 1px solid white;
+  color: #54595d;
+  font-size: 1.2rem;
+}
+
+.search-button {
+  background-color: #36c;
+  border: 0.1rem #36c solid;
+  background-image: url("https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-512.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 2rem 2.5rem;
+  border-radius:0 0.2rem 0.2rem 0;
+}
+
+.search-container{
+    border: 1px solid #a2a9b1;
+    border-radius: 0 0.2rem 0.2rem 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 1rem;
+}

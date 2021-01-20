@@ -1,0 +1,42 @@
+.header-figure{
+    max-height: 5.1rem;
+    max-width: 5.7rem;
+    margin: 0;
+}
+.header-picture__img{
+    width: 100%;
+}
+.header-logo{
+    height: 2.5rem;
+    width: 15rem;
+}
+.header-logo__img{
+    width: 100%;
+}
+.main-languages{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.languages-featured{
+    padding:0 1.6rem;
+    margin-bottom: 1.6rem;
+}
+
+.languages-featured__link{
+    text-decoration: none;
+    color: #36c;
+    font-weight: bold;
+    font-size: 1.3rem;
+    display: block;
+}
+.languages-featured__number{
+    color: #54595d;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+.search-language{
+    margin-right: 1.5rem;
+}
