@@ -24,19 +24,3 @@
     padding:0 1.6rem;
     margin-bottom: 1.6rem;
 }
-
-.languages-featured__link{
-    text-decoration: none;
-    color: #36c;
-    font-weight: bold;
-    font-size: 1.3rem;
-    display: block;
-}
-.languages-featured__number{
-    color: #54595d;
-    font-size: 1.3rem;
-    line-height: 2rem;
-}
-.search-language{
-    margin-right: 1.5rem;
-}

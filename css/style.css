@@ -3,14 +3,14 @@ html {
 }
 .header {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   margin-top: 5rem;
   margin-left: 3rem;
   margin-right: 3rem;
 }
-.header-logo{
-    margin: 0;
+.header-logo {
+  margin: 0;
 }
 .header-title {
   text-align: center;
@@ -41,19 +41,80 @@ html {
 .search-button {
   background-color: #36c;
   border: 0.1rem #36c solid;
-  background-image: url("https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-512.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 2rem 2.5rem;
-  border-radius:0 0.2rem 0.2rem 0;
+  border-radius: 0 0.2rem 0.2rem 0;
 }
 
-.search-container{
-    border: 1px solid #a2a9b1;
-    border-radius: 0 0.2rem 0.2rem 0;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin: 1rem;
+.search-container {
+  border: 1px solid #a2a9b1;
+  border-radius: 0 0.2rem 0.2rem 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 1rem;
+  width: 100%;
+}
+
+.languages-featured__link {
+  text-decoration: none;
+  color: #36c;
+  font-weight: bold;
+  font-size: 1.3rem;
+  display: block;
+}
+.languages-featured__number {
+  color: #54595d;
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+.search-language {
+  margin-right: 1.5rem;
+}
+.search-icon {
+  display: block;
+  width: 2.2rem;
+  height: 2rem;
+  padding: 1rem;
+}
+.search-icon__img {
+  width: 100%;
+}
+.button-languages-icon {
+  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.button-languages {
+  background-color: white;
+  border: 1px solid #a2a9b1;
+}
+
+.button-languages {
+  width: 26rem;
+  height: 3.5rem;
+  display: inline;
+  margin: 0 auto;
+  padding: 0.5rem 1.2rem;
+  outline: 1.6rem solid #fff;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.button-languages__text {
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #36c;
+  padding: 0 1rem;
+  vertical-align: middle;
+}
+.line {
+  margin-top: 4.8rem;
+}
+.border {
+  background-color: #c8ccd1;
+  max-width: 46rem;
+  width: 80%;
+  margin: -1.6rem auto 1.6rem;
+  height: 0.1rem;
 }
